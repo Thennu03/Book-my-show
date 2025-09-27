@@ -133,7 +133,7 @@ eksctl create nodegroup --cluster=kastro-eks \
                        --nodes-max=4 \
                        --node-volume-size=20 \
                        --ssh-access \
-                       --ssh-public-key=Kastro \
+                       --ssh-public-key=pem \
                        --managed \
                        --asg-access \
                        --external-dns-access \
@@ -816,4 +816,5 @@ Click on Dashboards in the left pane, you can see both the dashboards you have j
 
 
 Final:
+
 Delete all the resources created
